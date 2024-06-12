@@ -1,11 +1,8 @@
-@extends('layouts.app')
-
-@section('content')
 <!DOCTYPE html>
 <html>
 <head>
     <title>Treni in Partenza</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('scss/app.scss') }}">
 </head>
 <body>
     <div class="container mt-5">
@@ -43,5 +40,3 @@
     </div>
 </body>
 </html>
-
-@endsection
